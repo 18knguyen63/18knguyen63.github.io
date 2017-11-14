@@ -1,0 +1,36 @@
+@font-face{
+    font-family:welcome;
+    src:url("/Fonts/Welcome.ttf");
+}
+@font-face{
+    font-family:h3;
+    src:url("/Fonts/h3.otf");
+}
+#nav{
+    list-style-type: none;
+    overflow: hidden;
+}
+#nav li{
+    float: left;
+} 
+#nav li a {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+#nav li a:hover{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+body{
+    background-image: url('/Images/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    padding-left: 20px;
+}

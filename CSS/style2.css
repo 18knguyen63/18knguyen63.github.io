@@ -1,0 +1,39 @@
+table, th, td{
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 4%;
+}
+table tr:nth-child(even) {
+    background-color: white;
+    color: #0174DF;
+}
+table tr:nth-child(odd) {
+    background-color: #0174DF;
+    color: white;
+}
+table td:nth-child(odd) {
+    width: 100px;
+}
+table td:nth-child(even) {
+    width: 300px;
+}
+th {
+    background-color: #04B45F;
+    color: black;
+}
+table{
+  margin-left: 50px;
+}
+h3{
+  font-size: 200%;
+  font-family: "h3";
+  margin-left: 20px;
+  padding: 20px 0 20px 0;
+  font-weight: bold;
+}
+ul .hobbies li{
+  margin-left: 30px;
+}
+p{
+ margin-left: 50px; 
+}
