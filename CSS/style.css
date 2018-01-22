@@ -6,6 +6,10 @@
     font-family:h3;
     src:url("/Fonts/h3.otf");
 }
+@font-face{
+    font-family:h1;
+    src:url("/Fonts/h1.otf");
+}
 #nav{
     list-style-type: none;
     overflow: hidden;
